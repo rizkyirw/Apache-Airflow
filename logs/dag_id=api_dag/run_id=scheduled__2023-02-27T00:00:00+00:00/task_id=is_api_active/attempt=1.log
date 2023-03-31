@@ -1,0 +1,25 @@
+[2023-02-28T07:46:56.649+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_active scheduled__2023-02-27T00:00:00+00:00 [queued]>
+[2023-02-28T07:46:56.676+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_active scheduled__2023-02-27T00:00:00+00:00 [queued]>
+[2023-02-28T07:46:56.676+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-28T07:46:56.677+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-28T07:46:56.677+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-28T07:46:56.701+0000] {taskinstance.py:1300} INFO - Executing <Task(HttpSensor): is_api_active> on 2023-02-27 00:00:00+00:00
+[2023-02-28T07:46:56.716+0000] {standard_task_runner.py:55} INFO - Started process 11437 to run task
+[2023-02-28T07:46:56.739+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'is_api_active', 'scheduled__2023-02-27T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/api_dag.py', '--cfg-path', '/tmp/tmpj1qa_9ly']
+[2023-02-28T07:46:56.740+0000] {standard_task_runner.py:83} INFO - Job 5: Subtask is_api_active
+[2023-02-28T07:46:56.972+0000] {task_command.py:388} INFO - Running <TaskInstance: api_dag.is_api_active scheduled__2023-02-27T00:00:00+00:00 [running]> on host 6247a2c7df54
+[2023-02-28T07:46:57.226+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=is_api_active
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-27T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-27T00:00:00+00:00
+[2023-02-28T07:46:57.227+0000] {http.py:122} INFO - Poking: posts/
+[2023-02-28T07:46:57.258+0000] {base.py:73} INFO - Using connection ID 'api_posts' for task execution.
+[2023-02-28T07:46:58.087+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2023-02-28T07:46:58.100+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=is_api_active, execution_date=20230227T000000, start_date=20230228T074656, end_date=20230228T074658
+[2023-02-28T07:46:58.158+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-28T07:46:58.193+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
