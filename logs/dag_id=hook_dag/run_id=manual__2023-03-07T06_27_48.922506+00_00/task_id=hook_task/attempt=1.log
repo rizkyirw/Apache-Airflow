@@ -1,0 +1,39 @@
+[2023-03-07T06:27:50.474+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook_dag.hook_task manual__2023-03-07T06:27:48.922506+00:00 [queued]>
+[2023-03-07T06:27:50.484+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook_dag.hook_task manual__2023-03-07T06:27:48.922506+00:00 [queued]>
+[2023-03-07T06:27:50.484+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07T06:27:50.484+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-03-07T06:27:50.485+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07T06:27:50.499+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): hook_task> on 2023-03-07 06:27:48.922506+00:00
+[2023-03-07T06:27:50.505+0000] {standard_task_runner.py:55} INFO - Started process 2802 to run task
+[2023-03-07T06:27:50.509+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'hook_dag', 'hook_task', 'manual__2023-03-07T06:27:48.922506+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/pg-hook.py', '--cfg-path', '/tmp/tmpkx3a4482']
+[2023-03-07T06:27:50.510+0000] {standard_task_runner.py:83} INFO - Job 37: Subtask hook_task
+[2023-03-07T06:27:50.582+0000] {task_command.py:388} INFO - Running <TaskInstance: hook_dag.hook_task manual__2023-03-07T06:27:48.922506+00:00 [running]> on host 4d3923509bb6
+[2023-03-07T06:27:50.651+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hook_dag
+AIRFLOW_CTX_TASK_ID=hook_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-07T06:27:48.922506+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-07T06:27:48.922506+00:00
+[2023-03-07T06:27:50.659+0000] {base.py:73} INFO - Using connection ID 'postgre_sql' for task execution.
+[2023-03-07T06:27:50.665+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pg-hook.py", line 21, in get_activated_sources
+    cursor.execute(request)
+psycopg2.errors.UndefinedTable: relation "course.source" does not exist
+LINE 1: SELECT * FROM course.source
+                      ^
+
+[2023-03-07T06:27:50.673+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=hook_dag, task_id=hook_task, execution_date=20230307T062748, start_date=20230307T062750, end_date=20230307T062750
+[2023-03-07T06:27:50.684+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 37 for task hook_task (relation "course.source" does not exist
+LINE 1: SELECT * FROM course.source
+                      ^
+; 2802)
+[2023-03-07T06:27:50.721+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-07T06:27:50.740+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,32 @@
+[2023-02-28T07:46:56.644+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.save_posts scheduled__2023-02-27T00:00:00+00:00 [queued]>
+[2023-02-28T07:46:56.661+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_dag.save_posts scheduled__2023-02-27T00:00:00+00:00 [queued]>
+[2023-02-28T07:46:56.661+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-28T07:46:56.661+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-28T07:46:56.662+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-28T07:46:56.697+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): save_posts> on 2023-02-27 00:00:00+00:00
+[2023-02-28T07:46:56.706+0000] {standard_task_runner.py:55} INFO - Started process 11436 to run task
+[2023-02-28T07:46:56.717+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'save_posts', 'scheduled__2023-02-27T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/api_dag.py', '--cfg-path', '/tmp/tmp7u84ltu4']
+[2023-02-28T07:46:56.718+0000] {standard_task_runner.py:83} INFO - Job 6: Subtask save_posts
+[2023-02-28T07:46:56.935+0000] {task_command.py:388} INFO - Running <TaskInstance: api_dag.save_posts scheduled__2023-02-27T00:00:00+00:00 [running]> on host 6247a2c7df54
+[2023-02-28T07:46:57.185+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=save_posts
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-27T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-27T00:00:00+00:00
+[2023-02-28T07:46:57.202+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/api_dag.py", line 10, in save_posts
+    with open('/home/rizky/COE/airflow-latihan2/data/posts.json', 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/rizky/COE/airflow-latihan2/data/posts.json'
+[2023-02-28T07:46:57.228+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=api_dag, task_id=save_posts, execution_date=20230227T000000, start_date=20230228T074656, end_date=20230228T074657
+[2023-02-28T07:46:57.276+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 6 for task save_posts ([Errno 2] No such file or directory: '/home/rizky/COE/airflow-latihan2/data/posts.json'; 11436)
+[2023-02-28T07:46:57.307+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-28T07:46:57.333+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

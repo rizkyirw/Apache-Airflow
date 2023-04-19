@@ -1,0 +1,119 @@
+[2023-04-19T05:30:15.739+0000] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:30:15.741+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/api_etl_mysql.py for tasks to queue
+[2023-04-19T05:30:15.743+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:15.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:30:15.825+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:15.822+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/api_etl_mysql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_etl_mysql.py", line 11
+    with DAG(
+       ^
+IndentationError: expected an indented block
+[2023-04-19T05:30:15.827+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:30:15.888+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/api_etl_mysql.py took 0.168 seconds
+[2023-04-19T05:30:46.204+0000] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:30:46.206+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/api_etl_mysql.py for tasks to queue
+[2023-04-19T05:30:46.209+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:46.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:30:46.240+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:46.238+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/api_etl_mysql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_etl_mysql.py", line 11
+    with DAG(
+       ^
+IndentationError: expected an indented block
+[2023-04-19T05:30:46.242+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:30:46.319+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/api_etl_mysql.py took 0.122 seconds
+[2023-04-19T05:31:16.890+0000] {processor.py:153} INFO - Started process (PID=125) to work on /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:31:16.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/api_etl_mysql.py for tasks to queue
+[2023-04-19T05:31:16.893+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:16.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:31:16.915+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:16.914+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/api_etl_mysql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_etl_mysql.py", line 11
+    with DAG(
+       ^
+IndentationError: expected an indented block
+[2023-04-19T05:31:16.916+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:31:16.958+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/api_etl_mysql.py took 0.071 seconds
+[2023-04-19T05:31:47.568+0000] {processor.py:153} INFO - Started process (PID=161) to work on /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:31:47.570+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/api_etl_mysql.py for tasks to queue
+[2023-04-19T05:31:47.573+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:47.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:31:47.592+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:47.591+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/api_etl_mysql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_etl_mysql.py", line 11
+    with DAG(
+       ^
+IndentationError: expected an indented block
+[2023-04-19T05:31:47.593+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:31:47.629+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/api_etl_mysql.py took 0.073 seconds
+[2023-04-19T05:32:18.183+0000] {processor.py:153} INFO - Started process (PID=197) to work on /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:32:18.184+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/api_etl_mysql.py for tasks to queue
+[2023-04-19T05:32:18.186+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:18.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:32:18.218+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:18.217+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/api_etl_mysql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_etl_mysql.py", line 11
+    with DAG(
+       ^
+IndentationError: expected an indented block
+[2023-04-19T05:32:18.220+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:32:18.278+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/api_etl_mysql.py took 0.100 seconds
+[2023-04-19T05:32:48.520+0000] {processor.py:153} INFO - Started process (PID=242) to work on /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:32:48.522+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/api_etl_mysql.py for tasks to queue
+[2023-04-19T05:32:48.524+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:48.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:32:48.551+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:48.550+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/api_etl_mysql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_etl_mysql.py", line 11
+    with DAG(
+       ^
+IndentationError: expected an indented block
+[2023-04-19T05:32:48.552+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:32:48.595+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/api_etl_mysql.py took 0.087 seconds
+[2023-04-19T05:35:15.759+0000] {processor.py:153} INFO - Started process (PID=424) to work on /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:35:15.761+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/api_etl_mysql.py for tasks to queue
+[2023-04-19T05:35:15.763+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:15.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:35:15.788+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:15.787+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/api_etl_mysql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api_etl_mysql.py", line 11
+    with DAG(
+       ^
+IndentationError: expected an indented block
+[2023-04-19T05:35:15.790+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/api_etl_mysql.py
+[2023-04-19T05:35:15.838+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/api_etl_mysql.py took 0.084 seconds

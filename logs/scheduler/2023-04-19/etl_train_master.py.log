@@ -1,0 +1,193 @@
+[2023-04-19T05:30:15.931+0000] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:30:15.935+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:30:15.940+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:15.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:30:16.270+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:30:16.728+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:16.727+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:api_to_mysql
+[2023-04-19T05:30:16.758+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:16.757+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:api_to_mysql
+[2023-04-19T05:30:16.784+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:16.783+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:api_to_mysql
+[2023-04-19T05:30:16.785+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:16.785+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:30:16.842+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:16.842+0000] {dag.py:2711} INFO - Creating ORM DAG for api_to_mysql
+[2023-04-19T05:30:16.893+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:16.892+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:30:16.943+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 1.017 seconds
+[2023-04-19T05:30:47.245+0000] {processor.py:153} INFO - Started process (PID=91) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:30:47.246+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:30:47.248+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:47.248+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:30:47.343+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:30:47.388+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:47.388+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:30:47.455+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:30:47.454+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:30:47.528+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.290 seconds
+[2023-04-19T05:31:17.921+0000] {processor.py:153} INFO - Started process (PID=127) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:31:17.922+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:31:17.923+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:17.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:31:18.000+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:31:18.059+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:18.059+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:31:18.104+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:18.103+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:31:18.144+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.226 seconds
+[2023-04-19T05:31:48.580+0000] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:31:48.581+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:31:48.583+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:48.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:31:48.657+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:31:48.693+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:48.693+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:31:48.730+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:31:48.729+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:31:48.768+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.191 seconds
+[2023-04-19T05:32:19.335+0000] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:32:19.338+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:32:19.343+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:19.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:32:19.522+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:32:19.631+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:19.630+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:32:19.729+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:19.728+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:32:19.855+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.535 seconds
+[2023-04-19T05:32:50.544+0000] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:32:50.546+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:32:50.547+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:50.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:32:50.635+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:32:50.747+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:50.746+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:32:50.829+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:32:50.828+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:32:50.901+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.362 seconds
+[2023-04-19T05:33:21.023+0000] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:33:21.024+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:33:21.025+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:33:21.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:33:21.089+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:33:21.123+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:33:21.122+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:33:21.157+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:33:21.156+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:33:21.203+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.183 seconds
+[2023-04-19T05:33:51.568+0000] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:33:51.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:33:51.573+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:33:51.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:33:51.631+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:33:51.665+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:33:51.665+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:33:51.710+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:33:51.709+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:33:51.754+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.190 seconds
+[2023-04-19T05:34:22.096+0000] {processor.py:153} INFO - Started process (PID=355) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:34:22.097+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:34:22.098+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:34:22.098+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:34:22.163+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:34:22.196+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:34:22.196+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:34:22.235+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:34:22.235+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:34:22.275+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.183 seconds
+[2023-04-19T05:34:52.947+0000] {processor.py:153} INFO - Started process (PID=399) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:34:52.956+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:34:52.960+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:34:52.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:34:53.281+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:34:53.414+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:34:53.413+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:34:53.562+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:34:53.559+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:34:53.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.747 seconds
+[2023-04-19T05:35:23.884+0000] {processor.py:153} INFO - Started process (PID=434) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:35:23.886+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:35:23.889+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:23.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:35:23.987+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:35:24.041+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:24.040+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:35:24.107+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:24.107+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:35:24.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.289 seconds
+[2023-04-19T05:35:54.534+0000] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:35:54.535+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:35:54.537+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:54.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:35:54.595+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:35:54.637+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:54.637+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:35:54.679+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:35:54.679+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:35:54.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.195 seconds
+[2023-04-19T05:36:25.068+0000] {processor.py:153} INFO - Started process (PID=513) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:36:25.069+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:36:25.071+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:36:25.070+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:36:25.123+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:36:25.154+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:36:25.154+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:36:25.187+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:36:25.187+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:36:25.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.166 seconds
+[2023-04-19T05:36:55.569+0000] {processor.py:153} INFO - Started process (PID=548) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:36:55.570+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:36:55.572+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:36:55.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:36:55.627+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:36:55.664+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:36:55.663+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:36:55.700+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:36:55.700+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:36:55.746+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.182 seconds
+[2023-04-19T05:37:26.083+0000] {processor.py:153} INFO - Started process (PID=584) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:37:26.085+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:37:26.087+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:37:26.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:37:26.158+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:37:26.193+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:37:26.193+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:37:26.243+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:37:26.243+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:37:26.286+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.210 seconds
+[2023-04-19T05:37:56.627+0000] {processor.py:153} INFO - Started process (PID=635) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:37:56.628+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:37:56.630+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:37:56.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:37:56.691+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:37:56.748+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:37:56.747+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:37:56.790+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:37:56.790+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:37:56.830+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.207 seconds
+[2023-04-19T05:38:27.168+0000] {processor.py:153} INFO - Started process (PID=670) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:38:27.168+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:38:27.170+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:38:27.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:38:27.235+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:38:27.269+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:38:27.269+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:38:27.308+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:38:27.307+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:38:27.352+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.188 seconds
+[2023-04-19T05:38:57.676+0000] {processor.py:153} INFO - Started process (PID=705) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:38:57.677+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:38:57.679+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:38:57.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:38:57.732+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:38:57.764+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:38:57.763+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:38:57.800+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:38:57.800+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:38:57.842+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.169 seconds
+[2023-04-19T05:39:28.179+0000] {processor.py:153} INFO - Started process (PID=756) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:39:28.182+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:39:28.193+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:39:28.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:39:28.285+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:39:28.329+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:39:28.329+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:39:28.383+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:39:28.383+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:39:28.485+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.318 seconds
+[2023-04-19T05:39:58.905+0000] {processor.py:153} INFO - Started process (PID=791) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:39:58.910+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:39:58.913+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:39:58.913+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:39:59.166+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:39:59.323+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:39:59.322+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:39:59.460+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:39:59.460+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:39:59.509+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.636 seconds
+[2023-04-19T05:40:30.015+0000] {processor.py:153} INFO - Started process (PID=826) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:40:30.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:40:30.018+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:40:30.018+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:40:30.074+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:40:30.108+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:40:30.108+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:40:30.163+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:40:30.163+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:40:30.207+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.196 seconds
+[2023-04-19T05:41:00.554+0000] {processor.py:153} INFO - Started process (PID=861) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:41:00.555+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:41:00.556+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:41:00.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:41:00.618+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:41:00.660+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:41:00.659+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:41:00.700+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:41:00.700+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:41:00.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.190 seconds
+[2023-04-19T05:41:31.114+0000] {processor.py:153} INFO - Started process (PID=912) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:41:31.115+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:41:31.117+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:41:31.117+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:41:31.178+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:41:31.212+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:41:31.212+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:41:31.254+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:41:31.254+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:41:31.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.187 seconds
+[2023-04-19T05:42:01.621+0000] {processor.py:153} INFO - Started process (PID=947) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:42:01.622+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:42:01.624+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:42:01.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:42:01.678+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:42:01.708+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:42:01.708+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:42:01.742+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:42:01.742+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:42:01.780+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.162 seconds
+[2023-04-19T05:42:32.134+0000] {processor.py:153} INFO - Started process (PID=982) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:42:32.135+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:42:32.136+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:42:32.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:42:32.212+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:42:32.252+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:42:32.252+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:42:32.294+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:42:32.293+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:42:32.340+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.215 seconds
+[2023-04-19T05:43:02.663+0000] {processor.py:153} INFO - Started process (PID=1033) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:43:02.664+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:43:02.665+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:43:02.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:43:02.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:43:02.754+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:43:02.754+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:43:02.798+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:43:02.798+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:43:02.842+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.183 seconds
+[2023-04-19T05:43:33.159+0000] {processor.py:153} INFO - Started process (PID=1068) to work on /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:43:33.160+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_train_master.py for tasks to queue
+[2023-04-19T05:43:33.161+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:43:33.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:43:33.216+0000] {processor.py:753} INFO - DAG(s) dict_keys(['api_to_mysql']) retrieved from /opt/airflow/dags/etl_train_master.py
+[2023-04-19T05:43:33.246+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:43:33.245+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-19T05:43:33.281+0000] {logging_mixin.py:137} INFO - [2023-04-19T05:43:33.281+0000] {dag.py:3441} INFO - Setting next_dagrun for api_to_mysql to 2023-03-29T00:00:00+00:00, run_after=2023-03-30T00:00:00+00:00
+[2023-04-19T05:43:33.321+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_train_master.py took 0.166 seconds

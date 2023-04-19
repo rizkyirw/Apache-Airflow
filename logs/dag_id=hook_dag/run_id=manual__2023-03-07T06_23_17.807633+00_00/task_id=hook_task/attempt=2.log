@@ -1,0 +1,45 @@
+[2023-03-07T06:24:21.486+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook_dag.hook_task manual__2023-03-07T06:23:17.807633+00:00 [queued]>
+[2023-03-07T06:24:21.496+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook_dag.hook_task manual__2023-03-07T06:23:17.807633+00:00 [queued]>
+[2023-03-07T06:24:21.496+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07T06:24:21.496+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2023-03-07T06:24:21.497+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07T06:24:21.511+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): hook_task> on 2023-03-07 06:23:17.807633+00:00
+[2023-03-07T06:24:21.518+0000] {standard_task_runner.py:55} INFO - Started process 2593 to run task
+[2023-03-07T06:24:21.522+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'hook_dag', 'hook_task', 'manual__2023-03-07T06:23:17.807633+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/pg-hook.py', '--cfg-path', '/tmp/tmpyjw90yfy']
+[2023-03-07T06:24:21.522+0000] {standard_task_runner.py:83} INFO - Job 36: Subtask hook_task
+[2023-03-07T06:24:21.586+0000] {task_command.py:388} INFO - Running <TaskInstance: hook_dag.hook_task manual__2023-03-07T06:23:17.807633+00:00 [running]> on host 4d3923509bb6
+[2023-03-07T06:24:21.656+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hook_dag
+AIRFLOW_CTX_TASK_ID=hook_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-07T06:23:17.807633+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-07T06:23:17.807633+00:00
+[2023-03-07T06:24:21.664+0000] {base.py:73} INFO - Using connection ID 'postgre_sql' for task execution.
+[2023-03-07T06:24:21.665+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pg-hook.py", line 19, in get_activated_sources
+    connection = pg_hook.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 144, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2023-03-07T06:24:21.676+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=hook_dag, task_id=hook_task, execution_date=20230307T062317, start_date=20230307T062421, end_date=20230307T062421
+[2023-03-07T06:24:21.690+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 36 for task hook_task (connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+; 2593)
+[2023-03-07T06:24:21.733+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-07T06:24:21.755+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
